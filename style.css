@@ -54,16 +54,11 @@ body * {
   line-height: 24px;
 }
 
-#social {
-  text-align: center;
-  height: 48px;
-}
-
 /*switch*/
 #switch {
   position: relative;
   width: 64px;
-  margin: 0 auto;
+  margin: 5 auto;
 }
 #switch button {
   width: 32px;
