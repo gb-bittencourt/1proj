@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O 1PROJ LINK é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://gb-bittencourt.github.io/1proj)
+- <a href="https://gb-bittencourt.github.io/1proj" target="_blank">Visualise o projeto finalizado.</a>
 
 ## 🔖 Layout
 
