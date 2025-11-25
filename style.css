@@ -44,7 +44,7 @@ body * {
 #profile {
   text-align: center;
   font-size: 24px;
-  padding: 4px 16px 4px;
+  padding: 16px;
 }
 #profile img {
   width: 128px;
@@ -58,7 +58,7 @@ body * {
 #switch {
   position: relative;
   width: 64px;
-  margin: 5 auto;
+  margin: 5px auto;
 }
 #switch button {
   width: 32px;
