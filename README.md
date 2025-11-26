@@ -18,8 +18,8 @@ Meu primeiro projeto, cartão de visita digital.
 <br>
 
 <p align="center">
-  <img alt="PREVIEW ESCURO" src=".github/Black.jpg" width="30%">
-  <img alt="PREVIEW CLARO" src=".github/White.jpg" width="30%">
+  <img alt="PREVIEW ESCURO" src=".github/Black.jpg" width="40%">
+  <img alt="PREVIEW CLARO" src=".github/White.jpg" width="40%">
 </p>
 
 <br>
