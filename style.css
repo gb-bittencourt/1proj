@@ -7,27 +7,28 @@
 
 :root {
   --text-color: white;
-  --bg-url: rgb(25, 25, 25);
+  --bg-url: rgb(11, 11, 11);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.2);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(./assets/moon-stars.svg);
+  --switch-bg-url: url(./assets/sunny.svg);
 }
 
 .light {
   --text-color: black;
-  --bg-url: rgb(229, 229, 229);
+  --bg-url: rgb(240, 240, 240);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-color: rgba(0, 0, 0);
+  --switch-bg-url: url(./assets/moon.svg);
 }
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  height: 100dvh;
 }
 body * {
   font-family: "Roboto Mono", monospace;
@@ -63,7 +64,7 @@ body * {
 #switch button {
   width: 32px;
   height: 32px;
-  background: white var(--switch-bg-url) no-repeat center;
+  background: rgb(255, 255, 255) var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
 
@@ -77,6 +78,7 @@ body * {
 }
 .light #switch button {
   animation: slide-in 0.4s forwards;
+  background: rgb(11, 11, 11) var(--switch-bg-url) no-repeat center;
 }
 
 #switch button:hover {

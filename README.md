@@ -18,8 +18,11 @@ Meu primeiro projeto, cartão de visita digital.
 <br>
 
 <p align="center">
-  <img alt="PREVIEW 1PROJ" src=".github/preview.jpg" width="100%">
+  <img alt="PREVIEW ESCURO" src=".github/Black.jpg" width="30%">
+  <img alt="PREVIEW CLARO" src=".github/White.jpg" width="30%">
 </p>
+
+<br>
 
 ## 🚀 Tecnologias
 
@@ -33,16 +36,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O 1PROJ LINK é um agregador de links para usar como cartão de visitas online.
 
-- <a href="https://gb-bittencourt.github.io/1proj" target="_blank">Visualise o projeto finalizado.</a>
+<li><a href="https://gb-bittencourt.github.io/1proj" target="_blank">Visualise o projeto finalizado.</a></li>
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :memo: Licença
+## 📝 Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
 
-Feito por Gabriel Bittencourt
+- Feito por Gabriel Bittencourt
