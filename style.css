@@ -7,11 +7,11 @@
 
 :root {
   --text-color: white;
-  --bg-url: rgb(11, 11, 11);
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(255, 255, 255, 0.2);
-  --highlight-color: rgba(255, 255, 255, 0.2);
+  --bg-url: rgb(11, 11, 11); /*background color*/
+  --stroke-color: rgba(255, 255, 255, 0.5); /*border color*/
+  --surface-color: rgba(255, 255, 255, 0.05); /*button bg color*/
+  --surface-color-hover: rgba(255, 255, 255, 0.2); /*button hover bg color*/
+  --highlight-color: rgba(255, 255, 255, 0.2); /*not used yet*/
   --switch-bg-url: url(./assets/sunny.svg);
 }
 
@@ -109,6 +109,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 
   padding: 16px 24px;
 
@@ -124,37 +125,22 @@ ul li a {
 
   transition: background 0.2s;
 }
+
+ul li a ion-icon {
+  font-size: 20px;
+}
 ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
-/*social-links*/
-#social-links {
-  display: flex;
-  justify-content: center;
-  padding: 24px;
-  font-size: 24px;
-}
-#social-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  transition: background 0.4s;
-  border-radius: 50%;
-}
-#social-links a:hover {
-  background: var(--surface-color-hover);
-}
-
 footer {
-  padding: 0px 16px 16px;
+  padding: 24px 16px 16px;
   text-align: center;
   font-size: 14px;
 }
 footer a:hover {
-  color: rgb(0, 81, 255);
+  color: rgb(0, 88, 12);
 }
 
 /*animation button*/
